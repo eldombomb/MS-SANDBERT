@@ -29,3 +29,19 @@ if my_hitboxID.attack == AT_USTRONG and my_hitboxID.hbox_num == 1{
     }
 }
 
+//Ustrong sfx layering
+if my_hitboxID.attack == AT_USTRONG and my_hitboxID.hbox_num == 1{
+  sound_play(asset_get("sfx_zap"));
+}
+
+if my_hitboxID.attack == AT_USTRONG and my_hitboxID.hbox_num == 3{
+  sound_play(asset_get("sfx_zetter_upb_hit"));
+}
+
+if my_hitboxID.attack == AT_USTRONG and my_hitboxID.hbox_num == 4{
+  sound_play(asset_get("sfx_zetter_upb_hit"));
+}
+
+if my_hitboxID.attack == AT_USTRONG and my_hitboxID.hbox_num == 2{
+  sound_play(asset_get("sfx_pom_cheer"));
+}
